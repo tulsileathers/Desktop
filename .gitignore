@@ -1,0 +1,8 @@
+*
+!.zshrc
+!.zshenv
+!.spacemacs*
+!.vimrc
+!.gitignore_global
+!./Tools/z.sh
+!./Tools/ever-ready
