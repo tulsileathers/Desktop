@@ -6,3 +6,4 @@
 !.gitignore_global
 !./Tools/z.sh
 !./Tools/ever-ready
+!.eslintrc.json
