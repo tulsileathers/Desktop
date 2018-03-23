@@ -4,4 +4,4 @@ export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Paths
-export PATH="$PATH:/usr/local/Cellar:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/npm/bin:$HOME/bin:/opt/local/bin:/opt/local/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:$HOME/npm/bin:$HOME/bin:/opt/local/bin"
