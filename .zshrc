@@ -23,7 +23,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(rails docker ruby javascript git zsh-nvm zsh-better-npm-completion)
+plugins=(docker javascript git zsh-nvm zsh-better-npm-completion)
 
 source $ZSH/oh-my-zsh.sh
 
