@@ -1,0 +1,10 @@
+[user]
+	signingkey = C15BC902467A090BF0D1A20A030111083E0CEA5B
+	name = Jonathan Soifer
+	email = jonathan.soifer@movinga.com
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
+[core]
+	excludesfile = /Users/jonathanadmin/.gitignore_global
