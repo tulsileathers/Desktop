@@ -329,6 +329,9 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+  ;; Fixes NeoTree "cannot make side window the only window" error
+  ;; https://github.com/jaypei/emacs-neotree/issues/226
+  (setq helm-split-window-in-side-p t)
 
   ;; Avoid the Creation of lockfiles ".#"
   (setq create-lockfiles nil)
