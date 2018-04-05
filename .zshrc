@@ -1,7 +1,7 @@
 # username that determines your Users/username path
 username="jonathanadmin"
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/${username}/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 ZSH_THEME="agnoster-fcamblor"
@@ -36,7 +36,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Cool Navigation featurettes
-source /Users/${username}/z.sh
+source $HOME/z.sh
 
 # Easily switch iTerm's Tab Colors
 function color {
