@@ -4,7 +4,7 @@ username="jonathanadmin"
 export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
-ZSH_THEME="agnoster-fcamblor"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to disable auto-setting terminal title.
 export DISABLE_AUTO_TITLE="true"
@@ -23,7 +23,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(docker javascript git zsh-nvm zsh-better-npm-completion)
+plugins=(docker javascript git)
 
 source $ZSH/oh-my-zsh.sh
 
